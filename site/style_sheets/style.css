@@ -98,6 +98,7 @@
 	.home-video {
 		width: 560px;
 		height: 315px;
+		left: 20px;
 		border: 1px solid black;
 	}	
 
