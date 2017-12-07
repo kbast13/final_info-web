@@ -1,0 +1,90 @@
+/*Rankings Section*/
+	.rankings {
+		position: fixed;
+		left: 800px;
+		width: 350px;
+		height: 500px;
+	}
+
+	.gaming_ranks {
+		position: absolute;
+		top: 10px;
+		left: 8px;
+		width: 330px;
+		height: 230px;
+	}
+
+	.movie_ranks {
+		position: absolute;
+		background: rgba(0, 0, 0, 0.3);
+		border-radius: 4px;
+		top: 254px;
+		left: 23px;
+		width: 300px;
+		height: 270px;
+		color: white;
+	}
+/*Rankings Section end*/
+
+/*Gaming Company Ranks Homepage*/
+	.game-ranks {
+		background: rgba(0, 0, 0, 0.3);
+		height: 228px;
+		width: 106px;
+	}
+/*PlayStation Rankings Homepage*/
+	.ps-ranks {
+		position: absolute;
+	}
+/*XBOX Rankings Homepage*/
+	.xbox-ranks {
+		position: absolute;
+		left: 111px;
+	}
+/*Nintendo Rankings Homepage*/
+	.nintendo-ranks {
+		position: absolute;
+		left: 222px;
+	}
+
+/*Movie Ranks Homepage*/
+	.first-movie, 
+	.second-movie, 
+	.third-movie {
+		position: relative;
+		width: 295px;
+		height: 50px;
+		top: -5px;
+		left: 2px;
+		color: white;
+	}
+	.hover:hover {
+		background: rgba(0, 0, 0, 0.6);
+	}
+
+/*Page Rankings*/
+	.page-rankings {
+		position: fixed;
+		left: 810px;
+		top: 150px;
+		background: rgba(27, 128, 207, 0.6);
+		width: 300px;
+		height: 350px;
+		border-radius: 4px;
+		overflow: scroll;
+		text-indent: 10px;
+		font-size: 30px;
+	}
+	.first, .second,
+	.third, .fourth,
+	.fifth, .sixth,
+	.seventh, .eighth,
+	.ninth, .tenth {
+		position: relative;
+		width: 300px;
+		height: 26px;
+		font-size: 24px;
+		color: white;
+		top: 20px;
+		border-bottom: 3px dashed black;
+	}

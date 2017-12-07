@@ -1,0 +1,130 @@
+/*General Style*/
+	html {
+		background: url(../media/images/wallpaper/wallpaper-2472925.jpg);
+		background-size: 100% 100%;
+		background-repeat: none; 
+		color: white;	
+		font-family: bookman;
+	}
+
+	ol {
+		position: relative;
+		left: -20px;
+		top: -15px;
+	}
+/*General Style end*/
+
+	article {
+		position: relative;
+		width: 750px;
+		padding: 10px;
+		border: 3px;
+		border-radius: 15px 50px 30px;
+	}
+	footer {
+		position: relative;
+	}
+	.article-img {
+		position: absolute;
+		z-index: -1;
+		left: 70%;
+		top: 5%;
+		width: 220px;
+		height: 220px;
+	}
+
+	.written {
+		position: relative;
+		padding: 10px;
+		background: rgba(0, 0, 0, 0.3);
+		width: 750px;
+		height: 800px;
+		border-radius: 4px;
+		overflow: scroll;
+	}
+	.indent {
+		text-indent: 20px;
+	}
+
+	/*Summary on Pages*/
+	.work-summary {
+		position: relative;
+		top: 10px;
+		width: 747px;
+		height: 633px;
+		overflow: scroll;
+	}
+	/*Page Content Summary*/
+	.work {
+		float: center;
+		width:	680px;
+		height: 120px;
+		font-size: 20px;
+	}
+	.work:hover {
+		-moz-box-shadow: inset 0px 0px 10px #000000;
+		-webkit-box-shadow: inset 0px 0px 10px #000000;
+		box-shadow: inset 0px 0px 10px #000000;
+		transition: 0.3s;
+	}
+
+/*Body Content*/
+	.content {
+		background: rgba(0, 0, 0, 0.3);
+		width: 750px;
+		height: 1000px;
+		border-radius: 4px;
+		overflow: scroll;
+	}	
+
+/*Page Corner Image*/
+	.img-corner {
+		position: absolute;
+		z-index: -10px;
+		left: 70%;
+		top: 0%;
+		width: 220px;
+		height: 220px;
+	}
+
+/*Intro Video*/
+	.video-display {
+		width: 560px;
+		height: 315px;
+		border: 10px solid #D1D2DA;
+	}	
+
+/*Videos*/
+	.home-video {
+		width: 560px;
+		height: 315px;
+		border: 1px solid black;
+	}	
+
+/*Footer*/
+	footer {
+		margin: 0 auto;
+		color: white
+	}
+/*Footer end*/	
+
+/*Remove Underline On The Links*/
+	/**/
+	a:link {
+	    text-decoration: none;
+	}
+
+	a:visited {
+	    text-decoration: none;
+	    color: #46F32D;
+	}
+
+	a:hover {
+	    text-decoration: underline;
+	}
+
+	a:active {
+	    text-decoration: underline;
+	}
+
+

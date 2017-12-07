@@ -1,0 +1,36 @@
+/*Top Nav*/
+	.nav {
+		position: relative;
+	    overflow: scroll;
+	    white-space: nowrap;
+	    left: 110px;
+	    width: 650px;
+	    height: 55px;
+	    background: black;
+	    border-radius: 4px;
+	    font-size: 24px;
+	}
+
+	.nav a {
+	    display: inline-block;
+	    color: white;
+	    text-align: center;
+	    padding: 14px;
+	    text-decoration: none;
+	}
+
+	.nav a:hover {
+	    background-color: #777;
+	}
+/*Top Nav end*/
+
+	.nav-logo {
+		position: absolute;
+		top: 20px;
+	    width: 148px;
+	    height: 141px;
+	}
+	.nav-menu {
+		position: absolute;
+		text-align: center;
+	}

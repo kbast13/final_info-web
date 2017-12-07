@@ -1,0 +1,38 @@
+.recents {
+	position: relative;
+	height: 400px;
+	width: 710px;
+	overflow: scroll;
+}
+
+.gaming_recents {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.3);
+	border-radius: 4px;
+	left: 5px;
+	top: 10px;
+	height: 530px;
+	width: 350px;
+	overflow: auto;
+}
+
+.movie_recents {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.3);
+	border-radius: 4px;
+	left: 360px;
+	top: 10px;
+	height: 530px;
+	width: 350px;
+	overflow: auto;
+}
+
+.summary {
+	float: center;
+	width:	370px;
+	height: 87px;
+}
+.summary:hover {
+	box-shadow: 2px 2px 2px 2px #616262;
+	transition: 0.3s;
+}
